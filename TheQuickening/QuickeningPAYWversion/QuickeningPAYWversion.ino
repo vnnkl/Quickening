@@ -19,7 +19,7 @@ TFT_eSPI tft = TFT_eSPI();
 char wifiSSID[] = "YOUR-WIFI";
 char wifiPASS[] = "YOUR-PASS";
 const char* lntxbothost = "paywall.link";
-String invoicekey = "YOUR-PAYWALL-KEY"; 
+String invoicekey = "YOUR-PAYWALL-KEY"; // API Key that can be found under https://paywall.link/dashboard/integrations 
 String invoicenum = "INVOICE-NUMBER"; //Create a paywall, go to "Details" of the paywall https://paywall.link/dashboard/paywalls, number in the URL, ie 931 from https://paywall.link/link/view?id=931 
 String memo = "Q1 "; //memo suffix, followed by a random number
 String on_currency = "BTCGBP"; //currency can be changed here ie BTCUSD BTCGBP etc
